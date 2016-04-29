@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Data Binding - Gyllenhaal or Gosling</string>
+    <string name="main_title">Jake or Ryan?</string>
+
+    <string name="seek_bar_title">Jake\'s odds: %1$d%% \nRyan\'s odds: %2$d%%</string>
+    <string name="start_button">Start</string>
+    <string name="reset_button">Reset</string>
+
+
+    <string name="result_text">The Winner is - %1$s %2$s</string>
+    <string name="result_cheater_text">%1$s %2$s does not like cheaters</string>
+</resources>
