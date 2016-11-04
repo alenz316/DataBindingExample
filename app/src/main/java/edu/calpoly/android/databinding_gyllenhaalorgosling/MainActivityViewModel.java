@@ -78,7 +78,7 @@ public class MainActivityViewModel extends BaseObservable {
         notifyPropertyChanged(BR.percentage);
     }
 
-    public void startTimer(View v) {
+    public void startTimer() {
 //        Toast.makeText(v.getContext(), "" + getPercentage() + "%", Toast.LENGTH_SHORT).show();
         timerStarted.set(true);
         timerTime.set(DEFAULT_COUNTDOWN_MILLIS);
@@ -115,7 +115,7 @@ public class MainActivityViewModel extends BaseObservable {
                 });
     }
 
-    public void resetPercentage(View v) {
+    public void resetPercentage() {
         setPercentage(DEFAULT_PERCENT);
     }
 }
